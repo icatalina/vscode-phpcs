@@ -452,6 +452,7 @@ namespace CharCode {
 	 * @param charCode The unicode character code to check.
 	 */
 	function isWhiteSpaceLatin1(charCode: CharCode): boolean {
+		// @ts-ignore
 		return charCode === 32 || (charCode >= 9 && charCode <= 13) || (charCode === 160 || charCode === 133);
 	}
 

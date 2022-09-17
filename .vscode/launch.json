@@ -13,13 +13,10 @@
 			"request": "launch",
 			"runtimeExecutable": "${execPath}",
 			"args": [
-				"--extensionDevelopmentPath=${workspaceRoot}/phpcs"
+				"--extensionDevelopmentPath=${workspaceRoot}/packages/phpcs"
 			],
-			"stopOnEntry": false,
 			"sourceMaps": true,
-			"outFiles": [
-				"${workspaceRoot}/phpcs/out/**/*.js"
-			],
+			"outFiles": ["${workspaceRoot}/phpcs/out/**/*.js"],
 			"preLaunchTask": "watch:client"
 		},
 		{
@@ -27,11 +24,8 @@
 			"type": "node",
 			"request": "attach",
 			"port": 6199,
-			"stopOnEntry": false,
 			"sourceMaps": true,
-			"outFiles": [
-				"${workspaceRoot}/phpcs/server/**/*.js"
-			],
+			"outFiles": ["${workspaceRoot}/packages/phpcs/server/**/*.js"],
 			"protocol": "inspector",
 			"preLaunchTask": "watch:server"
 		}

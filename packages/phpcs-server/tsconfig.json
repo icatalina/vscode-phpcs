@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"skipLibCheck": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
 		"noImplicitAny": true,
@@ -8,12 +9,8 @@
 		"module": "commonjs",
 		"moduleResolution": "node",
 		"sourceMap": true,
-		"lib": [ "es2016" ],
-		"rootDir": ".",
-		"outDir": "out"
+		"lib": ["es2017"],
+		"outDir": "../phpcs/server"
 	},
-	"exclude": [
-		"node_modules",
-		"server"
-	]
+	"exclude": ["node_modules"]
 }
