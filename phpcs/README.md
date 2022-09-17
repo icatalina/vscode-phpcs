@@ -78,7 +78,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": null
+    	"phpcs.standard": null
     }
     ```
 
@@ -98,7 +98,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "PSR2"
+    	"phpcs.standard": "PSR2"
     }
     ```
 
@@ -106,7 +106,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "WordPress"
+    	"phpcs.standard": "WordPress"
     }
     ```
 
@@ -126,7 +126,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "/path/to/coding/standard"
+    	"phpcs.standard": "/path/to/coding/standard"
     }
     ```
 
@@ -134,7 +134,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "/path/to/project/phpcs.xml"
+    	"phpcs.standard": "/path/to/project/phpcs.xml"
     }
     ```
 
@@ -142,7 +142,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "./vendor/path/to/coding/standard"
+    	"phpcs.standard": "./vendor/path/to/coding/standard"
     }
     ```
 
@@ -150,7 +150,7 @@ The following values are applicable:
 
     ```json
     {
-        "phpcs.standard": "./phpcs.xml"
+    	"phpcs.standard": "./phpcs.xml"
     }
     ```
 
@@ -164,30 +164,25 @@ Automatically search for any `phpcs.xml`, `phpcs.xml.dist`, `phpcs.ruleset.xml` 
 
 ### **phpcs.ignorePatterns**
 
-[ *Scope:* All | Optional | *Type:* array | *Default:* [] ]
+[ _Scope:_ All | Optional | _Type:_ array | _Default:_ [] ]
 
 An array of glob patterns to skip files and folders that match when linting your documents.
 
 ```json
 {
-    "phpcs.ignorePatterns": [
-        "*/ignored-file.php",
-        "*/ignored-dir/*"
-    ]
+	"phpcs.ignorePatterns": ["*/ignored-file.php", "*/ignored-dir/*"]
 }
 ```
 
 ### **phpcs.ignoreSource**
 
-[ *Scope:* All | Optional | *Type:* array | *Default:* [] ]
+[ _Scope:_ All | Optional | _Type:_ array | _Default:_ [] ]
 
 An array of ignored sources. It could be file, gitfs or another file system of any extension
 
 ```json
 {
-    "phpcs.ignoreSource": [
-        "gitlens",
-    ]
+	"phpcs.ignoreSource": ["gitlens"]
 }
 ```
 
@@ -278,8 +273,8 @@ Additional inspiration comes from [Atom Linter-phpcs](https://github.com/AtomLin
 
 ## Contributing and Licensing
 
-The project is hosted on [GitHub](https://github.com/ikappas/vscode-phpcs) where you can [report issues](https://github.com/ikappas/vscode-phpcs/issues), fork
+The project is hosted on [GitHub](https://github.com/icatalina/vscode-phpcs) where you can [report issues](https://github.com/icatalina/vscode-phpcs/issues), fork
 the project and submit pull requests.
 
-The project is available under [MIT license](https://github.com/ikappas/vscode-phpcs/blob/master/LICENSE.md), which allows modification and
+The project is available under [MIT license](https://github.com/icatalina/vscode-phpcs/blob/master/LICENSE.md), which allows modification and
 redistribution for both commercial and non-commercial purposes.

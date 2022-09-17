@@ -3,8 +3,12 @@
   "description": "PHP CodeSniffer for Visual Studio Code",
   "version": "1.0.8",
   "author": "Ioannis Kappas",
-  "publisher": "shevaua",
+  "publisher": "icatalina",
   "contributors": [
+    {
+      "email": "hi@icatalina.me",
+      "name": "Ignacio Catalina"
+    },
     {
       "email": "sheva@shevaua.info",
       "name": "Igor Sheviakov"
